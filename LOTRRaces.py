@@ -12,7 +12,8 @@ White='\033[37m'        # White
 
 def banner():
     system('clear')
-    text = f'''{Green}LOTR Race Detector{White}\n'''
+    text = f'''{Green}LOTR Race Detector{White}\n
+        {Yellow}Author: Leonardo C R Attizano{White}\n'''
     print(text)
 
 def lotrClassifier():
